@@ -94,10 +94,13 @@ vim.g.maplocalleader = ' '
 vim.g.have_nerd_font = true
 
 -- [[ Setting options ]]
+require 'config/options'
 
 -- [[ Basic Autocommands ]]
+require 'config/autocmds'
 
 -- [[ Install `lazy.nvim` plugin manager ]]
+require 'config/lazy'
 
 -- [[ Configure and install plugins ]]
 --
